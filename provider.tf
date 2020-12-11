@@ -1,7 +1,7 @@
 provider "aws" {
   region = "ap-south-1"
 }
-/*
+
 resource "aws_s3_bucket" "abc" {
   bucket = "hello34567ui"
   acl    = "private"
@@ -11,4 +11,4 @@ resource "aws_s3_bucket" "abc" {
     Environment = "Dev"
   }
 }
-*/
+
